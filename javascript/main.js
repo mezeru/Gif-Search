@@ -22,7 +22,7 @@ function search(input){
 
 var a = input.trim().split().join('a');
 
-var url = "http://api.giphy.com/v1/gifs/search?q="+a+"&api_key=dc6zaTOxFJmzC";
+var url = "https://api.giphy.com/v1/gifs/search?q="+a+"&api_key=dc6zaTOxFJmzC";
 
 // AJAX Request
 var GiphyAJAXCall = new XMLHttpRequest();
